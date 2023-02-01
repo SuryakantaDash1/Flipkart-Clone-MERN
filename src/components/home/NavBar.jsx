@@ -4,6 +4,7 @@ import { navData } from "../../constants/data";
 const Component = styled(Box)(({ theme }) => ({
     display: 'flex',
     margin: '55 130 0 130',
+    background: '#fff',
     justifyContent: 'space-between',
     [theme.breakpoints.down('lg')]: {
         margin: 0
