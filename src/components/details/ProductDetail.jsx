@@ -59,11 +59,13 @@ const ProductDetail = ({ product}) => {
                             <Box component="span" style={{ color: '#2874f0'}}>SuperComNet</Box>
                             <Typography>Gst invoice available</Typography>
                             <Typography>View more sellers starting from ₹{product.price.cost}</Typography>
+                            
 
                         </TableCell>
                     </TableRow>
                 </TableBody>
             </Table>
+            
         
         </>
     )
