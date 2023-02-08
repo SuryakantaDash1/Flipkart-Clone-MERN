@@ -44,7 +44,7 @@ const CartItem = ({item}) => {
         <Component>
             <LeftComponent>
                 <img src={item.url} alt="product" style={{ height: 110, width: 110}} />
-                <ButtonGroup /> 
+                <ButtonGroup/> 
             </LeftComponent>
             <Box style={{margin: 20}}>
                 <Typography>{addEllipsis(item.title.longTitle)}</Typography>
