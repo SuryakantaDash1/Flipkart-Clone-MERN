@@ -60,7 +60,7 @@ const Image = styled('img')({
 });
 
 const Text = styled(Typography)`
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 5px;
 `;
 
