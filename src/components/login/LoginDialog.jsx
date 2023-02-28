@@ -158,7 +158,7 @@ const LoginDialog = ({open, setOpen}) => {
                         <Wrapper>
                             <TextField variant='standard' onChange={(e)=> onValueChange(e)} name='username' label="Enter Username" />
 
-                            { error && <Error> Please enter a valid username and password</Error> }
+                            { error && <Error> Please enter a valid username & password</Error> }
 
                             <TextField variant='standard' onChange={(e)=> onValueChange(e)} name='password' label="Enter Password" />
                             <Text>By continuing, you agree to Flipkart's Terms of use and Privacy policy.</Text>
