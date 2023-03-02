@@ -161,7 +161,7 @@ const LoginDialog = ({open, setOpen}) => {
                             { error && <Error> Please enter a valid username & password</Error> }
 
                             <TextField variant='standard' onChange={(e)=> onValueChange(e)} name='password' label="Enter Password" />
-                            <Text>By continuing, you agree to Flipkart's Terms of use and Privacy policy.</Text>
+                            <Text>By continuing, you agree to Flipkart's Terms of use and Privacy policy</Text>
                             <LoginButton onClick={() => loginUser()}>Login</LoginButton>
                             <Typography style={{textAlign: 'center'}}>OR</Typography>
                             <RequestOTP>Request OTP</RequestOTP>
